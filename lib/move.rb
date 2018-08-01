@@ -10,5 +10,9 @@ end
 
 def input_to_index(user_input="1-9")
   user_input.to_i
-  
-  
+  board_position = user_input - 1
+  return board_position
+end 
+
+
+def move(board, )
